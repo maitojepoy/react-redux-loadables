@@ -1,0 +1,24 @@
+.wimg {
+	display: inline-block;
+	border: 1px solid #DDD;
+	background: #fff;
+	padding: 10px;
+	width: 40%;
+}
+.wimg._aleft {
+	float: left;
+	margin-right: 15px;
+}
+.wimg._aright {
+	float: right;
+	margin-left: 15px;
+}
+.wimg img {
+	width: 100%;
+	display: block;
+}
+.wimg p {
+	text-align: left;
+	font-size: 14px;
+	margin: 10px 0 0;
+}

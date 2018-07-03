@@ -1,0 +1,12 @@
+.App {
+  background-color: #fff;
+  margin: 20px auto 0;
+  width: 960px;
+  display: flex;
+  flex-direction: row;
+}
+
+.rcont {
+  padding: 35px 50px;
+  
+}

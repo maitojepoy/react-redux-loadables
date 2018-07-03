@@ -1,0 +1,67 @@
+div.topcont {
+	width: 340px;
+	background-color: #3B3A40;
+	color: #fff;
+	flex-shrink: 0;
+}
+
+div.topcont h3 {
+	padding: 25px;
+  	height: 18px;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #fefefe;
+	margin: 0;
+}
+
+div.topcont ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+}
+
+div.topcont ul li {
+	cursor: pointer;
+	display: block;
+}
+
+div.topcont ul li .ptit{
+	font-size: 14px;
+	display: block;
+	background: #3B3A40;
+	color: #fefefe;
+	padding: 15px 20px;
+	border-bottom: 1px solid #222;
+	border-top: 1px solid #666;
+	line-height: 1.4em;
+}
+
+div.topcont ul li a {
+	text-decoration: none;
+}
+
+div.topcont ul li .subts {
+	/*transition: max-height 0.5s;*/
+	background: #1e1e1e;
+	padding-left: 20px;
+	height: auto;
+	max-height: 0;
+	overflow: hidden;
+}
+
+div.topcont ul li.selected .subts {
+	/*display: block;*/
+	max-height: 10000000px;
+}
+
+div.topcont .subitem {
+	border: 1px solid #333;
+	border-bottom: none;
+	border-right: none;
+	font-size: 14px;
+	padding: 14px 14px 14px 28px;
+	margin-left: 14px;
+	display: block;
+	color: #ccc;
+}
