@@ -16,7 +16,7 @@ class CourseNav extends Component {
 	        <ul>
 	        {course.map((chapter,id) =>
 	          <CourseNavItem key={id} cid={id} chapter={chapter} selected={this.isSelected(id)}/>
-	        )}
+          )}
 	        </ul>
 	    </div>
     );
